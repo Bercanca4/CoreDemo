@@ -7,6 +7,31 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Remove="wwwroot\lib\bootstrap\dist\css\bootstrap.min.css" />
+    <Content Remove="wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map" />
+    <Content Remove="wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css" />
+    <Content Remove="wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map" />
+    <Content Remove="wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css" />
+    <Content Remove="wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\CoreBlogTema\web\js\bootstrap.js" />
+    <None Include="wwwroot\CoreBlogTema\web\js\easing.js" />
+    <None Include="wwwroot\CoreBlogTema\web\js\jquery-2.2.3.min.js" />
+    <None Include="wwwroot\CoreBlogTema\web\js\jquery.desoslide.js" />
+    <None Include="wwwroot\CoreBlogTema\web\js\jquery.flexisel.js" />
+    <None Include="wwwroot\CoreBlogTema\web\js\modernizr.custom.min.js" />
+    <None Include="wwwroot\CoreBlogTema\web\js\move-top.js" />
+    <None Include="wwwroot\CoreBlogTema\web\webfonts\fa-brands-400.svg" />
+    <None Include="wwwroot\CoreBlogTema\web\webfonts\fa-brands-400.woff2" />
+    <None Include="wwwroot\CoreBlogTema\web\webfonts\fa-regular-400.svg" />
+    <None Include="wwwroot\CoreBlogTema\web\webfonts\fa-regular-400.woff2" />
+    <None Include="wwwroot\CoreBlogTema\web\webfonts\fa-solid-900.svg" />
+    <None Include="wwwroot\CoreBlogTema\web\webfonts\fa-solid-900.woff2" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.9" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.9">
       <PrivateAssets>all</PrivateAssets>
@@ -17,8 +42,9 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
-    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.10" />
-    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.9" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Utils" Version="6.0.10" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.3.0" />
   </ItemGroup>
 
   <ItemGroup>
